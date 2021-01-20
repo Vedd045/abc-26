@@ -40,6 +40,7 @@ function setup(){
 
 function draw(){
     background(backgroundImg);
+ //background is of day
     Engine.update(engine);
     console.log(box2.body.position.x);
     console.log(box2.body.position.y);
